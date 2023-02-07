@@ -21,6 +21,7 @@ h1{
 button{
     width: 150px;
     padding: 5px 0;
+    margin: 5px;
     background-color: goldenrod;
     border: none;
     border-radius: 2px;
