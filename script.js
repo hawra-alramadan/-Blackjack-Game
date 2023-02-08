@@ -8,7 +8,12 @@ let messageEl= document.getElementById("message-el");
 let sumEl = document.getElementById("sum-el");
 let cardEl = document.getElementById("card-el");
 
- function startGame(){
+
+function startGame() {
+    renderGame()
+}
+
+function renderGame(){
     sumEl.textContent = "Sum: " + sum;
     cardEl.textContent ="Cards: " + firstCard +" "+ secondCard;
     if (sum <= 20){
